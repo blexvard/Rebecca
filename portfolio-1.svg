@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="250" viewBox="0 0 350 250">
+  <!-- Background -->
+  <rect width="350" height="250" fill="#4a6b4a" />
+  
+  <!-- Mobile phone outline -->
+  <rect x="125" y="25" width="100" height="200" rx="10" ry="10" fill="#f8f4ec" />
+  <rect x="130" y="35" width="90" height="180" rx="5" ry="5" fill="#f0e9e0" />
+  
+  <!-- App UI elements -->
+  <g>
+    <!-- Header -->
+    <rect x="130" y="35" width="90" height="30" rx="5" ry="5" fill="#2c3e2d" />
+    <circle cx="145" cy="50" r="5" fill="#7a9a7a" />
+    <rect x="155" y="47" width="40" height="6" rx="3" ry="3" fill="#7a9a7a" />
+    
+    <!-- Content -->
+    <rect x="140" y="75" width="70" height="40" rx="5" ry="5" fill="#7a9a7a" opacity="0.7" />
+    <rect x="140" y="125" width="30" height="30" rx="5" ry="5" fill="#5e4b3b" opacity="0.7" />
+    <rect x="180" y="125" width="30" height="30" rx="5" ry="5" fill="#5e4b3b" opacity="0.7" />
+    <rect x="140" y="165" width="70" height="10" rx="5" ry="5" fill="#2c3e2d" opacity="0.7" />
+    <rect x="140" y="185" width="70" height="10" rx="5" ry="5" fill="#2c3e2d" opacity="0.7" />
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.2">
+    <path d="M0,200 Q50,180 100,190 T200,180 T300,190 T350,180 V250 H0 Z" fill="#2c3e2d" />
+    <circle cx="50" cy="50" r="30" fill="#f8f4ec" />
+    <path d="M280,100 C300,80 320,90 310,110 C300,130 260,120 280,100 Z" fill="#f8f4ec" />
+  </g>
+</svg>
