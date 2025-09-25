@@ -1,0 +1,38 @@
+<svg width="70" height="40" viewBox="0 0 70 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree silhouette design -->
+  <g fill="#6B7C5A">
+    <!-- Main tree trunk -->
+    <rect x="32" y="25" width="6" height="15" rx="1"/>
+    
+    <!-- Tree foliage layers -->
+    <ellipse cx="35" cy="22" rx="12" ry="8"/>
+    <ellipse cx="35" cy="18" rx="10" ry="6"/>
+    <ellipse cx="35" cy="15" rx="8" ry="5"/>
+    
+    <!-- Left branch -->
+    <ellipse cx="25" cy="20" rx="6" ry="4"/>
+    
+    <!-- Right branch -->
+    <ellipse cx="45" cy="20" rx="6" ry="4"/>
+    
+    <!-- Small accent leaves -->
+    <circle cx="22" cy="18" r="2"/>
+    <circle cx="48" cy="18" r="2"/>
+    <circle cx="35" cy="12" r="3"/>
+  </g>
+  
+  <!-- Optional subtle texture overlay -->
+  <defs>
+    <pattern id="treeTexture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="transparent"/>
+      <circle cx="2" cy="2" r="0.5" fill="#6B7C5A" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Apply texture to the tree -->
+  <g fill="url(#treeTexture)">
+    <ellipse cx="35" cy="22" rx="12" ry="8"/>
+    <ellipse cx="35" cy="18" rx="10" ry="6"/>
+    <ellipse cx="35" cy="15" rx="8" ry="5"/>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0e9e0" />
+      <stop offset="100%" stop-color="#e6dfd6" />
+    </linearGradient>
+    
+    <!-- Tree patterns -->
+    <pattern id="tree-pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <g fill="#4a6b4a" opacity="0.1">
+        <path d="M100,20 L120,60 L140,60 L100,10 L60,60 L80,60 Z" />
+        <path d="M100,40 L120,80 L140,80 L100,30 L60,80 L80,80 Z" />
+        <path d="M100,60 L120,100 L140,100 L100,50 L60,100 L80,100 Z" />
+        <rect x="95" y="100" width="10" height="30" />
+      </g>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  
+  <!-- Forest silhouette -->
+  <g opacity="0.8">
+    <!-- Far trees -->
+    <path d="M0,500 Q300,350 600,450 T1200,400 V800 H0 Z" fill="#2c3e2d" opacity="0.4" />
+    
+    <!-- Mid trees -->
+    <path d="M0,550 Q200,450 400,500 T800,480 T1200,520 V800 H0 Z" fill="#4a6b4a" opacity="0.5" />
+    
+    <!-- Near trees -->
+    <path d="M0,600 Q150,550 300,580 T600,540 T900,590 T1200,560 V800 H0 Z" fill="#2c3e2d" opacity="0.6" />
+  </g>
+  
+  <!-- Individual trees -->
+  <g>
+    <!-- Tree 1 -->
+    <g transform="translate(100, 500) scale(0.8)">
+      <path d="M0,0 L30,60 L60,0 Z" fill="#2c3e2d" />
+      <path d="M10,40 L50,40 L30,-20 Z" fill="#4a6b4a" />
+      <rect x="25" y="60" width="10" height="40" fill="#5e4b3b" />
+    </g>
+    
+    <!-- Tree 2 -->
+    <g transform="translate(300, 480) scale(1.2)">
+      <path d="M0,0 L30,60 L60,0 Z" fill="#4a6b4a" />
+      <path d="M10,30 L50,30 L30,-10 Z" fill="#7a9a7a" />
+      <path d="M15,50 L45,50 L30,20 Z" fill="#2c3e2d" />
+      <rect x="25" y="60" width="10" height="40" fill="#5e4b3b" />
+    </g>
+    
+    <!-- Tree 3 -->
+    <g transform="translate(500, 520) scale(0.9)">
+      <path d="M0,0 L40,80 L80,0 Z" fill="#2c3e2d" />
+      <path d="M10,40 L70,40 L40,-20 Z" fill="#4a6b4a" />
+      <rect x="35" y="80" width="10" height="40" fill="#5e4b3b" />
+    </g>
+    
+    <!-- Tree 4 -->
+    <g transform="translate(700, 490) scale(1.1)">
+      <path d="M0,0 L30,60 L60,0 Z" fill="#4a6b4a" />
+      <path d="M10,30 L50,30 L30,-10 Z" fill="#7a9a7a" />
+      <rect x="25" y="60" width="10" height="40" fill="#5e4b3b" />
+    </g>
+    
+    <!-- Tree 5 -->
+    <g transform="translate(900, 510) scale(1)">
+      <path d="M0,0 L40,80 L80,0 Z" fill="#2c3e2d" />
+      <path d="M10,40 L70,40 L40,-20 Z" fill="#4a6b4a" />
+      <path d="M15,60 L65,60 L40,10 Z" fill="#7a9a7a" />
+      <rect x="35" y="80" width="10" height="40" fill="#5e4b3b" />
+    </g>
+  </g>
+  
+  <!-- Pattern overlay -->
+  <rect width="100%" height="100%" fill="url(#tree-pattern)" opacity="0.05" />
+  
+  <!-- Subtle texture -->
+  <rect width="100%" height="100%" fill="#2c3e2d" opacity="0.02" filter="url(#noise)" />
+  
+  <!-- Mist/fog effect -->
+  <path d="M0,650 Q300,600 600,650 T1200,620 V800 H0 Z" fill="#f8f4ec" opacity="0.2" />
+</svg>

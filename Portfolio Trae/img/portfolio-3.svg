@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="250" viewBox="0 0 350 250">
+  <!-- Background -->
+  <rect width="350" height="250" fill="#5e4b3b" />
+  
+  <!-- E-commerce website mockup -->
+  <rect x="50" y="30" width="250" height="190" rx="5" ry="5" fill="#f8f4ec" />
+  
+  <!-- Website header -->
+  <rect x="50" y="30" width="250" height="40" rx="5" ry="5" fill="#2c3e2d" />
+  <circle cx="70" cy="50" r="10" fill="#7a9a7a" />
+  <rect x="90" y="45" width="60" height="10" rx="2" ry="2" fill="#f8f4ec" opacity="0.8" />
+  <rect x="200" y="45" width="30" height="10" rx="2" ry="2" fill="#f8f4ec" opacity="0.8" />
+  <rect x="240" y="45" width="30" height="10" rx="2" ry="2" fill="#f8f4ec" opacity="0.8" />
+  
+  <!-- Product grid -->
+  <rect x="65" y="85" width="65" height="65" rx="3" ry="3" fill="#f0e9e0" />
+  <rect x="143" y="85" width="65" height="65" rx="3" ry="3" fill="#f0e9e0" />
+  <rect x="220" y="85" width="65" height="65" rx="3" ry="3" fill="#f0e9e0" />
+  
+  <rect x="65" y="160" width="65" height="10" rx="2" ry="2" fill="#2c3e2d" opacity="0.7" />
+  <rect x="65" y="175" width="40" height="8" rx="2" ry="2" fill="#7a9a7a" opacity="0.7" />
+  
+  <rect x="143" y="160" width="65" height="10" rx="2" ry="2" fill="#2c3e2d" opacity="0.7" />
+  <rect x="143" y="175" width="40" height="8" rx="2" ry="2" fill="#7a9a7a" opacity="0.7" />
+  
+  <rect x="220" y="160" width="65" height="10" rx="2" ry="2" fill="#2c3e2d" opacity="0.7" />
+  <rect x="220" y="175" width="40" height="8" rx="2" ry="2" fill="#7a9a7a" opacity="0.7" />
+  
+  <!-- Product images (stylized) -->
+  <g>
+    <rect x="75" y="95" width="45" height="45" rx="3" ry="3" fill="#7a9a7a" opacity="0.5" />
+    <path d="M85,120 L95,105 L105,115 L110,110 L115,125" stroke="#2c3e2d" stroke-width="2" fill="none" />
+    <circle cx="105" cy="105" r="3" fill="#2c3e2d" />
+  </g>
+  
+  <g>
+    <rect x="153" y="95" width="45" height="45" rx="3" ry="3" fill="#7a9a7a" opacity="0.5" />
+    <path d="M163,120 L173,105 L183,115 L188,110 L193,125" stroke="#2c3e2d" stroke-width="2" fill="none" />
+    <circle cx="183" cy="105" r="3" fill="#2c3e2d" />
+  </g>
+  
+  <g>
+    <rect x="230" y="95" width="45" height="45" rx="3" ry="3" fill="#7a9a7a" opacity="0.5" />
+    <path d="M240,120 L250,105 L260,115 L265,110 L270,125" stroke="#2c3e2d" stroke-width="2" fill="none" />
+    <circle cx="260" cy="105" r="3" fill="#2c3e2d" />
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.2">
+    <path d="M0,200 Q50,180 100,190 T200,180 T300,190 T350,180 V250 H0 Z" fill="#2c3e2d" />
+  </g>
+</svg>

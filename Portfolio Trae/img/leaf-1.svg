@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <linearGradient id="leaf-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6b4a" />
+      <stop offset="100%" stop-color="#2c3e2d" />
+    </linearGradient>
+  </defs>
+  
+  <path d="M75,10 C120,10 140,75 140,120 C140,140 120,140 100,130 C80,120 60,100 50,80 C40,60 30,30 75,10 Z" 
+        fill="url(#leaf-gradient)" opacity="0.8" />
+  
+  <!-- Leaf veins -->
+  <path d="M75,10 C90,40 100,70 100,100" fill="none" stroke="#2c3e2d" stroke-width="1.5" opacity="0.5" />
+  <path d="M75,10 C85,30 90,60 80,90" fill="none" stroke="#2c3e2d" stroke-width="1" opacity="0.5" />
+  <path d="M75,10 C65,30 60,60 70,90" fill="none" stroke="#2c3e2d" stroke-width="1" opacity="0.5" />
+  <path d="M75,10 C60,40 50,70 60,100" fill="none" stroke="#2c3e2d" stroke-width="1.5" opacity="0.5" />
+  
+  <!-- Subtle texture -->
+  <path d="M75,10 C120,10 140,75 140,120 C140,140 120,140 100,130 C80,120 60,100 50,80 C40,60 30,30 75,10 Z" 
+        fill="#ffffff" opacity="0.05" />
+</svg>
